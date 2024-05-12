@@ -1,0 +1,42 @@
+{
+  "name": "ID-ChatBot",
+  "description": "♥︎ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴜsᴇʀ ɪᴅ ᴄʜsᴛʙᴏᴛ",
+  "logo": "https://graph.org/file/a00f89c5aa75735896e0f.jpg",
+  "keywords": [
+    "Chatbot",
+    "mongodb",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/GOD-R4V4N/IDChatBot",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "A Pyrogram v2 String session.",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_URL": {
+      "description": "Get a mongodb url from https://cloud.mongodb.com.",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "User id chat bot control owner id.",
+      "required": true,
+      "value": "6927241780"
+    }
+  }
+}
