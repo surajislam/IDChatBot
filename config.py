@@ -5,7 +5,7 @@ load_dotenv()
 
 
 ### ❖ ➥
-API_ID = getenv("API_ID", None))
+API_ID = getenv("API_ID", None)
 
 ### ❖ ➥
 API_HASH = getenv("API_HASH", None)
