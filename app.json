@@ -1,7 +1,7 @@
 {
   "name": "ID-ChatBot",
   "description": "♥︎ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴜsᴇʀ ɪᴅ ᴄʜsᴛʙᴏᴛ",
-  "logo": "https://graph.org/file/a00f89c5aa75735896e0f.jpg",
+  "logo": "https://graph.org/file/0dceb494bab6c37b8cd05.jpg",
   "keywords": [
     "Chatbot",
     "mongodb",
@@ -36,7 +36,7 @@
     "OWNER_ID": {
       "description": "User id chat bot control owner id.",
       "required": true,
-      "value": "6927241780"
+      "value": "7178932244"
     }
   }
 }
